@@ -1,0 +1,115 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: Arial;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+h1{
+    text-align: center;
+    margin-top: 80px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 80px;
+}
+
+p{
+    border: 1px solid green;
+    border-top: 2px solid;
+    font-size: 18px;
+    max-width: 1000px;
+    background-color: #3b83bd;
+    border-radius: 5px;
+    padding: 3px;
+    
+}
+
+.logu:hover{
+    transform: scale(1.10);
+}
+a:hover{
+    transform: scale(1.10);
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    
+}
+
+
+
+.imagem1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.imagem2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    
+}
+
+
+.header{
+    background-image: url(imgs/banner.jpg) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logu{
+    max-width: 150px;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    padding:10px;
+    display: block;
+    
+}
+
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flexbox > div{
+    flex: 1 1 200px;
+    margin: 20px;
+}
+
+.imagem2:hover{
+    transform: scale(1.10);
+}

@@ -1,0 +1,166 @@
+body, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: Arial;
+    
+
+}
+
+body{
+    background-image: url(/a-parte/imgs/background.png);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 80px;
+}
+h3{
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    background: url(imgs/back.jpg) no-repeat center center;
+    background-size: cover ;
+    
+}
+
+p{
+    border: 1px solid black;
+    border-top: 2px solid;
+    font-size: 1.3rem;
+    max-width: 1000px;
+    background-color: #3b83bd;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
+
+.title{
+    text-align: center;
+    padding-left: 20px;
+}
+.header{
+    background-image: url(imgs/banner.jpg) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.logu{
+    max-width: 150px;
+}
+
+.logu:hover{
+    transform: scale(1.10);
+}
+a:hover{
+    transform: scale(1.10);
+}
+
+
+.menu{
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    padding:10px;
+    display: block;
+    
+}
+
+.conteudo {
+    list-style: decimal;
+    border: 1px solid;
+    border-top: 8px solid black;
+    font-size: 15px;
+    max-width: 200px;
+    color: black;
+    border-radius: 10px;
+    background-color: #3b83bd;
+}
+
+.conteudo > li > a{
+    color: black;
+}
+
+.trivi{
+    border: 1px solid black;
+    max-width: 1250px;
+    background-color: #3b83bd;
+    border-top: solid 2px;
+    border-radius: 10px;
+}
+
+.trivi li{
+    padding: 2px;
+}
+
+
+#impor{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+#impor > div{
+    flex: 1 1 200px;
+    margin: 20px;
+} 
+
+#content{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 1em;
+}
+
+#content{
+    margin-left: 310px;
+    margin-right: 410px;
+}
+
+#content{
+    max-width: 1070px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 30px;
+
+}
+
+#content{
+    border-right: 1px solid black;
+    border-radius: 1em 1em 1em 1em;
+    padding-top: 20px;
+}
+
+#content{
+    background-image: url(/a-parte/imgs/background.png);
+}
